@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file>bds_UIs/blank.PNG</file>
+        <file>bds_UIs/bluetooth.PNG</file>
+        <file>bds_UIs/chrome.PNG</file>
+        <file>bds_UIs/disc.PNG</file>
+        <file>bds_UIs/exit.PNG</file>
+        <file>bds_UIs/hdmi1.PNG</file>
+        <file>bds_UIs/hdmi2.PNG</file>
+        <file>bds_UIs/hdmi3.PNG</file>
+        <file>bds_UIs/hdmovies.PNG</file>
+        <file>bds_UIs/image.PNG</file>
+        <file>bds_UIs/ipod.PNG</file>
+        <file>bds_UIs/movie.PNG</file>
+        <file>bds_UIs/Music.PNG</file>
+        <file>bds_UIs/pandora.PNG</file>
+        <file>bds_UIs/radio.PNG</file>
+        <file>bds_UIs/screen.PNG</file>
+        <file>bds_UIs/setting.PNG</file>
+        <file>bds_UIs/weather.PNG</file>
+        <file>bds_UIs/wifi.PNG</file>
+        <file>bds_UIs/youtube.PNG</file>
+        <file>bds_UIs/up.PNG</file>
+        <file>bds_UIs/down.PNG</file>
+        <file>bds_UIs/upButton.PNG</file>
+        <file>bds_UIs/next.PNG</file>
+        <file>bds_UIs/backward.PNG</file>
+        <file>bds_UIs/downButton.png</file>
+        <file>bds_UIs/imageIcon.png</file>
+        <file>bds_UIs/bluetooth_s.png</file>
+        <file>bds_UIs/wifi_s.png</file>
+        <file>bds_UIs/airplay_s.png</file>
+        <file>bds_UIs/musicIcon.PNG</file>
+        <file>bds_UIs/musicIcon_m.png</file>
+        <file>bds_UIs/movie512.png</file>
+        <file>bds_UIs/MovieIcon128.PNG</file>
+        <file>bds_UIs/movie480.jpg</file>
+        <file>bds_UIs/exitIcon.png</file>
+        <file>bds_UIs/image60.PNG</file>
+        <file>bds_UIs/image120.PNG</file>
+    </qresource>
+</RCC>

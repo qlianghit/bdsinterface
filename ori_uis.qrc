@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>GUIS/Music 2 (iPod) .png</file>
+        <file>GUIS/music_DLNA.png</file>
+        <file>GUIS/photo.png</file>
+        <file>GUIS/airplay.png</file>
+        <file>GUIS/bluetooth.png</file>
+        <file>GUIS/video.png</file>
+        <file>GUIS/DLNA.png</file>
+        <file>GUIS/RADIO.png</file>
+        <file>GUIS/Video(Display).png</file>
+    </qresource>
+</RCC>

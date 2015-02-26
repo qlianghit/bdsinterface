@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormSubMain</class>
+ <widget class="QWidget" name="FormSubMain">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="labelItemDescription">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>460</y>
+     <width>381</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Play Your Loved Music with Pandora</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonHDMovie">
+   <property name="geometry">
+    <rect>
+     <x>1150</x>
+     <y>70</y>
+     <width>360</width>
+     <height>180</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/bds_UIs/hdmovies.PNG</normaloff>:/bds_UIs/hdmovies.PNG</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>360</width>
+     <height>180</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelItemName">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>410</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>18</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Pandora</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonUp">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/bds_UIs/backward.PNG</normaloff>:/bds_UIs/backward.PNG</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonChrome">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>70</y>
+     <width>360</width>
+     <height>180</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/bds_UIs/chrome.PNG</normaloff>:/bds_UIs/chrome.PNG</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>360</width>
+     <height>180</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonWifi">
+   <property name="geometry">
+    <rect>
+     <x>1520</x>
+     <y>70</y>
+     <width>360</width>
+     <height>180</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/bds_UIs/wifi.PNG</normaloff>:/bds_UIs/wifi.PNG</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>360</width>
+     <height>180</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonWeather">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>70</y>
+     <width>360</width>
+     <height>180</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/bds_UIs/weather.PNG</normaloff>:/bds_UIs/weather.PNG</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>360</width>
+     <height>180</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonPandora">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>70</y>
+     <width>360</width>
+     <height>180</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/bds_UIs/pandora.PNG</normaloff>:/bds_UIs/pandora.PNG</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>360</width>
+     <height>180</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>64</x>
+     <y>40</y>
+     <width>1791</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="res.qrc">:/bds_UIs/down.PNG</pixmap>
+   </property>
+  </widget>
+  <zorder>labelItemDescription</zorder>
+  <zorder>pushButtonHDMovie</zorder>
+  <zorder>labelItemName</zorder>
+  <zorder>pushButtonChrome</zorder>
+  <zorder>pushButtonWifi</zorder>
+  <zorder>pushButtonWeather</zorder>
+  <zorder>pushButtonPandora</zorder>
+  <zorder>label</zorder>
+  <zorder>pushButtonUp</zorder>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

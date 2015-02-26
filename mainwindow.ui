@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QWidget" name="widget" native="true">
+        <widget class="QPushButton" name="pushButtonHdmi1">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>230</y>
+           <width>360</width>
+           <height>180</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/bds_UIs/hdmi1.PNG</normaloff>:/bds_UIs/hdmi1.PNG</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>360</width>
+           <height>180</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonHdmi2">
+         <property name="geometry">
+          <rect>
+           <x>410</x>
+           <y>230</y>
+           <width>360</width>
+           <height>180</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/bds_UIs/hdmi2.PNG</normaloff>:/bds_UIs/hdmi2.PNG</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>360</width>
+           <height>180</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonHdmi3">
+         <property name="geometry">
+          <rect>
+           <x>780</x>
+           <y>230</y>
+           <width>360</width>
+           <height>180</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/bds_UIs/hdmi3.PNG</normaloff>:/bds_UIs/hdmi3.PNG</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>360</width>
+           <height>180</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonIpod">
+         <property name="geometry">
+          <rect>
+           <x>1150</x>
+           <y>230</y>
+           <width>360</width>
+           <height>180</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/bds_UIs/ipod.PNG</normaloff>:/bds_UIs/ipod.PNG</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>360</width>
+           <height>180</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonExit">
+         <property name="geometry">
+          <rect>
+           <x>1520</x>
+           <y>40</y>
+           <width>360</width>
+           <height>180</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/bds_UIs/exit.PNG</normaloff>:/bds_UIs/exit.PNG</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>360</width>
+           <height>180</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonDisk">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>40</y>
+           <width>360</width>
+           <height>180</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/bds_UIs/disc.PNG</normaloff>:/bds_UIs/disc.PNG</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>360</width>
+           <height>180</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonMusic">
+         <property name="geometry">
+          <rect>
+           <x>410</x>
+           <y>40</y>
+           <width>360</width>
+           <height>180</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/bds_UIs/Music.PNG</normaloff>:/bds_UIs/Music.PNG</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>360</width>
+           <height>180</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonImage">
+         <property name="geometry">
+          <rect>
+           <x>780</x>
+           <y>40</y>
+           <width>360</width>
+           <height>180</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/bds_UIs/image.PNG</normaloff>:/bds_UIs/image.PNG</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>360</width>
+           <height>180</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonMovie">
+         <property name="geometry">
+          <rect>
+           <x>1150</x>
+           <y>40</y>
+           <width>360</width>
+           <height>180</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/bds_UIs/movie.PNG</normaloff>:/bds_UIs/movie.PNG</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>360</width>
+           <height>180</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonSetting">
+         <property name="geometry">
+          <rect>
+           <x>1520</x>
+           <y>230</y>
+           <width>360</width>
+           <height>180</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/bds_UIs/setting.PNG</normaloff>:/bds_UIs/setting.PNG</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>360</width>
+           <height>180</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonBlueThooth">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>420</y>
+           <width>360</width>
+           <height>180</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/bds_UIs/bluetooth.PNG</normaloff>:/bds_UIs/bluetooth.PNG</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>360</width>
+           <height>180</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonChrome">
+         <property name="geometry">
+          <rect>
+           <x>1520</x>
+           <y>420</y>
+           <width>360</width>
+           <height>180</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/bds_UIs/chrome.PNG</normaloff>:/bds_UIs/chrome.PNG</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>360</width>
+           <height>180</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonYoutube">
+         <property name="geometry">
+          <rect>
+           <x>1150</x>
+           <y>420</y>
+           <width>360</width>
+           <height>180</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/bds_UIs/youtube.PNG</normaloff>:/bds_UIs/youtube.PNG</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>360</width>
+           <height>180</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonScreen">
+         <property name="geometry">
+          <rect>
+           <x>410</x>
+           <y>420</y>
+           <width>360</width>
+           <height>180</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/bds_UIs/screen.PNG</normaloff>:/bds_UIs/screen.PNG</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>360</width>
+           <height>180</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonRadio">
+         <property name="geometry">
+          <rect>
+           <x>780</x>
+           <y>420</y>
+           <width>360</width>
+           <height>180</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/bds_UIs/radio.PNG</normaloff>:/bds_UIs/radio.PNG</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>360</width>
+           <height>180</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QLabel" name="labelItemName">
+         <property name="geometry">
+          <rect>
+           <x>900</x>
+           <y>740</y>
+           <width>141</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>18</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Disc</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="labelItemDescription">
+         <property name="geometry">
+          <rect>
+           <x>840</x>
+           <y>790</y>
+           <width>241</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Times New Roman</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Play Optical Discs</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>600</y>
+           <width>1781</width>
+           <height>30</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="res.qrc">:/bds_UIs/down.PNG</pixmap>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButtonDown">
+         <property name="geometry">
+          <rect>
+           <x>1800</x>
+           <y>650</y>
+           <width>41</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/bds_UIs/next.PNG</normaloff>:/bds_UIs/next.PNG</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

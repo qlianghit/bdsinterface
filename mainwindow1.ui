@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow1</class>
+ <widget class="QMainWindow" name="MainWindow1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButtonImageHDMovie">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>40</y>
+      <width>360</width>
+      <height>180</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/bds_UIs/hdmovies.PNG</normaloff>:/bds_UIs/hdmovies.PNG</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>360</width>
+      <height>180</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelItemDescription_3">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>460</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonWeather">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>40</y>
+      <width>360</width>
+      <height>180</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/bds_UIs/weather.PNG</normaloff>:/bds_UIs/weather.PNG</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>360</width>
+      <height>180</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonPandora">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>360</width>
+      <height>180</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/bds_UIs/pandora.PNG</normaloff>:/bds_UIs/pandora.PNG</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>360</width>
+      <height>180</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonUp">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>0</y>
+      <width>1920</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/bds_UIs/up.PNG</normaloff>:/bds_UIs/up.PNG</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonWifi">
+    <property name="geometry">
+     <rect>
+      <x>1520</x>
+      <y>40</y>
+      <width>360</width>
+      <height>180</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/bds_UIs/wifi.PNG</normaloff>:/bds_UIs/wifi.PNG</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>360</width>
+      <height>180</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelItemName_3">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>410</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonChrome">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>40</y>
+      <width>360</width>
+      <height>180</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/bds_UIs/chrome.PNG</normaloff>:/bds_UIs/chrome.PNG</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>360</width>
+      <height>180</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
